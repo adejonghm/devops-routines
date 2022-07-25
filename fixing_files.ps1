@@ -41,7 +41,7 @@ foreach ($stg in $stages) {
 
 ## Prepare the changes to add them to the repository.
 git add .ci\* OPENSHIFT\*
-git commit -m "Adicionando arquivos de configuracao"
+git commit -m "add: pipeline config files"
 git push origin -u fix/cdg-bugfix:fix/cdg-bugfix
 
 ## Delete the created branch.
