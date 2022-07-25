@@ -14,7 +14,7 @@ $stages = @('dev', 'pre', 'pro')
 git checkout -b fix/cdg-bugfix
 
 ## Clone the necessary files.
-$gitUrl = ""
+$gitUrl = Read-Host -Prompt "Enter the url of the Git you want to clone: "
 git clone $gitUrl $cdgPath
 
 ## Copy the cloned files to the local repository.
@@ -52,4 +52,4 @@ git branch -d fix/cdg-bugfix
 Remove-Item $cdgPath -Recurse -Force
 Remove-Item fixing_files.ps1 -Force
 
-Write-Host "Processo finalizado com sucesso!"
+Write-Host "Process completed successfully!"
