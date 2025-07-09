@@ -76,4 +76,4 @@ foreach ($spn in $appRegistrationList) {
     }	
   }
 }
-Write-Host "Messages sent successfully!"
+Write-Host "Alerts sent successfully!"
