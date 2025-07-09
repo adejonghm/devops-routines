@@ -5,4 +5,5 @@
 ## PowerShell scripts
 
 - fixing_files.ps1
-- self-healing.ps1
+- self_healing.ps1
+- serv_principal_notification.ps1
